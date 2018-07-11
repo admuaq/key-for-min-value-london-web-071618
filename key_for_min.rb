@@ -4,10 +4,9 @@
 def key_for_min_value(name_hash)
   i=0
   name_hash.collect do |key, value|
-      key == 0 
-      key > 1 
-      key < -1 
-      i = value
+      if key == 0 
+      elsif == key > 1 
+      elsif == key < -1 
     end
     key
   end
