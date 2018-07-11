@@ -6,7 +6,6 @@ def key_for_min_value(name_hash)
   name_hash do |key, value|
        value < count
        count = value 
-       
     end
-    i
+    value
 end
