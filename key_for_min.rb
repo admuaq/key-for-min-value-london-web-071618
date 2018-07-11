@@ -7,5 +7,4 @@ def key_for_min_value(name_hash)
      i << name_hash[value].join
     end
     i
-  end
 end
