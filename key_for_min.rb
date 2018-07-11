@@ -3,6 +3,7 @@
 
 def key_for_min_value(name_hash)
   cont = nil
+  minval = 0 
   count = 1000
   name_hash.collect do |key, value|
        if value < count
