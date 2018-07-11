@@ -4,7 +4,7 @@
 def key_for_min_value(name_hash)
   i=[]
   name_hash.select do |key, value|
-       
+       value > 
        
     end
     i
