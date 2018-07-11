@@ -5,7 +5,7 @@ def key_for_min_value(name_hash)
   cont = ""
   name_hash.collect do |key, value|
     if value < name_hash.length 
-       << key.select
+      cont << key.select
     end
     key
   end
