@@ -6,6 +6,7 @@ def key_for_min_value(name_hash)
     return nil 
   end 
 else 
+  cont = ""
   minval = 0 
   i = 0
   name_hash.collect do |key, value|
