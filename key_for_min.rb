@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
   count = max
-  name_hash.select do |key, value|
+  name_hash do |key, value|
        value < 
        
     end
