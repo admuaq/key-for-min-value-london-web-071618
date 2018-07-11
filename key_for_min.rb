@@ -7,6 +7,6 @@ def key_for_min_value(name_hash)
     if value < name_hash.length 
       cont << key.select
     end
-    key
+    cont
   end
 end
