@@ -4,7 +4,7 @@
 def key_for_min_value(name_hash)
   count = max
   name_hash do |key, value|
-       value < 
+       value < count
        
     end
     i
