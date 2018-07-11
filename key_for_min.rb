@@ -6,6 +6,5 @@ def key_for_min_value(name_hash)
     if value[i] < value.next 
       key
     end
-    key
   end
 end
