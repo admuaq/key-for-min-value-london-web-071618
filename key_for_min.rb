@@ -12,7 +12,7 @@ def key_for_min_value(name_hash)
        elsif  value < minval
           cont = key 
        end 
-    cont 
+    i+= 1
     end
     cont
 end
