@@ -4,7 +4,7 @@
 def key_for_min_value(name_hash)
   cont = ""
   count = 0...1000
-  name_hash do |key, value|
+  name_hash.collect do |key, value|
        if value < count
        count = value 
        cont = key
