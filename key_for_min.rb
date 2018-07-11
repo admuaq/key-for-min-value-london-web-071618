@@ -4,9 +4,9 @@
 def key_for_min_value(name_hash)
   cont = nil
   minval = 0 
-  count = 0
+  i = 0
   name_hash.collect do |key, value|
-       if minval === 0
+       if count === 0
          value < count
        count = value 
        cont = key
