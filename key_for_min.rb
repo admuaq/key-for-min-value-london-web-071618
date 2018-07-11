@@ -11,9 +11,8 @@ def key_for_min_value(name_hash)
          minval = value
        elsif  value < minval
           cont = key 
-       
-       cont = key
-      end
+       end 
+    cont 
     end
     cont
 end
